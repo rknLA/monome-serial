@@ -1,0 +1,1323 @@
+TMonomeSerial
+v7
+r0
+t301811225.666916
+cCheck dependencies
+cProcessInfoPlistFile "/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/MonomeSerial.app/Contents/Info.plist" Info.plist
+cCopyStringsFile "/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/MonomeSerial.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+cStripNIB /Users/kevin/sandbox/monome-serial/osx/English.lproj/MainMenu.nib
+cCpResource "build/Release 10.5/MonomeSerial.app/Contents/Resources/monome-serial.icns" monome-serial.icns
+cCpResource "build/Release 10.5/MonomeSerial.app/Contents/Resources/gplheader.txt" gplheader.txt
+cCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/main.o" /Users/kevin/sandbox/monome-serial/osx/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/AppController.o" /Users/kevin/sandbox/monome-serial/osx/AppController.mm normal ppc objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/ApplicationController.o" /Users/kevin/sandbox/monome-serial/osx/ApplicationController.mm normal ppc objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/AsynchronousSerialDeviceReader.o" /Users/kevin/sandbox/monome-serial/osx/AsynchronousSerialDeviceReader.cc normal ppc c++ com.apple.compilers.gcc.4_2
+cCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/CCoreMIDI.o" /Users/kevin/sandbox/monome-serial/osx/CCoreMIDI.cc normal ppc c++ com.apple.compilers.gcc.4_2
+cCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/message.o" /Users/kevin/sandbox/monome-serial/osx/message.c normal ppc c com.apple.compilers.gcc.4_2
+cCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/MonomeDeviceDefaults.o" /Users/kevin/sandbox/monome-serial/osx/MonomeDeviceDefaults.cc normal ppc c++ com.apple.compilers.gcc.4_2
+cCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/MonomeSerialDefaults.o" /Users/kevin/sandbox/monome-serial/osx/MonomeSerialDefaults.mm normal ppc objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/MonomeXXhDevice.o" /Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.cc normal ppc c++ com.apple.compilers.gcc.4_2
+cCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/OscAtom.o" /Users/kevin/sandbox/monome-serial/osx/OscAtom.cc normal ppc c++ com.apple.compilers.gcc.4_2
+cCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/OscContext.o" /Users/kevin/sandbox/monome-serial/osx/OscContext.cc normal ppc c++ com.apple.compilers.gcc.4_2
+cCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/OscController.o" /Users/kevin/sandbox/monome-serial/osx/OscController.cc normal ppc c++ com.apple.compilers.gcc.4_2
+cCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/OscException.o" /Users/kevin/sandbox/monome-serial/osx/OscException.cc normal ppc c++ com.apple.compilers.gcc.4_2
+cCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/OscHostAddress.o" /Users/kevin/sandbox/monome-serial/osx/OscHostAddress.cc normal ppc c++ com.apple.compilers.gcc.4_2
+cCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/SerialDevice.o" /Users/kevin/sandbox/monome-serial/osx/SerialDevice.cc normal ppc c++ com.apple.compilers.gcc.4_2
+cCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/SerialDeviceNotifications.o" /Users/kevin/sandbox/monome-serial/osx/SerialDeviceNotifications.c normal ppc c com.apple.compilers.gcc.4_2
+cCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/message256.o" /Users/kevin/sandbox/monome-serial/osx/message256.c normal ppc c com.apple.compilers.gcc.4_2
+cCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/messageMK.o" /Users/kevin/sandbox/monome-serial/osx/messageMK.c normal ppc c com.apple.compilers.gcc.4_2
+cCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/main.o" /Users/kevin/sandbox/monome-serial/osx/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/AppController.o" /Users/kevin/sandbox/monome-serial/osx/AppController.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/ApplicationController.o" /Users/kevin/sandbox/monome-serial/osx/ApplicationController.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/AsynchronousSerialDeviceReader.o" /Users/kevin/sandbox/monome-serial/osx/AsynchronousSerialDeviceReader.cc normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/CCoreMIDI.o" /Users/kevin/sandbox/monome-serial/osx/CCoreMIDI.cc normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/message.o" /Users/kevin/sandbox/monome-serial/osx/message.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/MonomeDeviceDefaults.o" /Users/kevin/sandbox/monome-serial/osx/MonomeDeviceDefaults.cc normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/MonomeSerialDefaults.o" /Users/kevin/sandbox/monome-serial/osx/MonomeSerialDefaults.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/MonomeXXhDevice.o" /Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.cc normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/OscAtom.o" /Users/kevin/sandbox/monome-serial/osx/OscAtom.cc normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/OscContext.o" /Users/kevin/sandbox/monome-serial/osx/OscContext.cc normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/OscController.o" /Users/kevin/sandbox/monome-serial/osx/OscController.cc normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/OscException.o" /Users/kevin/sandbox/monome-serial/osx/OscException.cc normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/OscHostAddress.o" /Users/kevin/sandbox/monome-serial/osx/OscHostAddress.cc normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/SerialDevice.o" /Users/kevin/sandbox/monome-serial/osx/SerialDevice.cc normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/SerialDeviceNotifications.o" /Users/kevin/sandbox/monome-serial/osx/SerialDeviceNotifications.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/message256.o" /Users/kevin/sandbox/monome-serial/osx/message256.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/messageMK.o" /Users/kevin/sandbox/monome-serial/osx/messageMK.c normal i386 c com.apple.compilers.gcc.4_2
+cPBXCp "build/Release 10.5/MonomeSerial.app/Contents/Frameworks/Lo.framework" Lo.framework
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004AB44D2500000000000000EE
+t1253330213
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
+c00000000486499690000000000000942
+t1214552425
+s2370
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreMIDI.framework/Headers/CoreMIDI.h
+c000000004864A23C0000000000000211
+t1214554684
+s529
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOBSD.h
+c0000000047E8839400000000000006C2
+t1206420372
+s1730
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOKitLib.h
+c00000000481BC12A0000000000010CC8
+t1209778474
+s68808
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/IOKit.framework/Headers/serial/IOSerialKeys.h
+c000000004864AB550000000000000B28
+t1214557013
+s2856
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/arpa/inet.h
+c00000000464386D70000000000001533
+t1178830551
+s5427
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/errno.h
+c0000000047BA993000000000000003EB
+t1203411248
+s1003
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/fcntl.h
+c0000000047BA993000000000000003EA
+t1203411248
+s1002
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/mach/clock.h
+c0000000048648AD90000000000001465
+t1214548697
+s5221
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/netinet/in.h
+c0000000047E883C30000000000005346
+t1206420419
+s21318
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/paths.h
+c0000000047BA99300000000000001067
+t1203411248
+s4199
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/pthread.h
+c0000000047BA9932000000000000380F
+t1203411250
+s14351
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/regex.h
+c0000000047BA9931000000000000154F
+t1203411249
+s5455
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/stdio.h
+c0000000047BA99310000000000003D1D
+t1203411249
+s15645
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/string.h
+c0000000047BA99320000000000001731
+t1203411250
+s5937
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/sys/ioctl.h
+c0000000047E883CF00000000000011D1
+t1206420431
+s4561
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/sys/param.h
+c0000000047E883D00000000000002742
+t1206420432
+s10050
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/sys/select.h
+c0000000047E883D100000000000016A2
+t1206420433
+s5794
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/sys/socket.h
+c0000000047E883D1000000000000559B
+t1206420433
+s21915
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/sys/stat.h
+c0000000047E883D100000000000047CE
+t1206420433
+s18382
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/sys/time.h
+c0000000047E883D20000000000001E18
+t1206420434
+s7704
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/sys/types.h
+c0000000047E883D2000000000000290F
+t1206420434
+s10511
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/sysexits.h
+c0000000047BA99300000000000001560
+t1203411248
+s5472
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/termios.h
+c0000000047BA993000000000000004D4
+t1203411248
+s1236
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/time.h
+c0000000047BA9932000000000000178E
+t1203411250
+s6030
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/unistd.h
+c0000000047BA993200000000000053FF
+t1203411250
+s21503
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/lib/gcc/powerpc-apple-darwin10/4.2.1/include/stdint.h
+c000000004A11EB05000000000000190C
+t1242688261
+s6412
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/System/Library/Frameworks/CoreMIDI.framework/CoreMIDI
+c000000004A4C40E7000000000015FAD0
+t1246511335
+s1440464
+
+N/System/Library/Frameworks/IOKit.framework/IOKit
+c000000004C11727E0000000000172A20
+t1276211838
+s1518112
+
+N/Users/kevin/sandbox/monome-serial/osx/AppController.h
+c000000004C4CF9C30000000000000D56
+t1280113091
+s3414
+i<Cocoa/Cocoa.h>
+
+N/Users/kevin/sandbox/monome-serial/osx/AppController.mm
+c000000004C4CF9C30000000000004F49
+t1280113091
+s20297
+i"ApplicationController.h"
+i<sstream>
+
+N/Users/kevin/sandbox/monome-serial/osx/ApplicationController.h
+c000000004C4CF9C30000000000001859
+t1280113091
+s6233
+i"MonomeXXhDevice.h"
+i"AsynchronousSerialDeviceReader.h"
+i"OscController.h"
+i"MonomeSerialDefaults.h"
+i<vector>
+i"AppController.h"
+
+N/Users/kevin/sandbox/monome-serial/osx/ApplicationController.mm
+c000000004C4CF9C3000000000000E22D
+t1280113091
+s57901
+i"SerialDeviceNotifications.h"
+i"ApplicationController.h"
+i"message.h"
+i"message256.h"
+i"messageMK.h"
+i"osc.h"
+i<sys/types.h>
+i<sys/socket.h>
+i<netinet/in.h>
+i<arpa/inet.h>
+i<iostream>
+i<sstream>
+
+N/Users/kevin/sandbox/monome-serial/osx/AsynchronousSerialDeviceReader.cc
+c000000004C4CF9C30000000000001923
+t1280113091
+s6435
+i"AsynchronousSerialDeviceReader.h"
+
+N/Users/kevin/sandbox/monome-serial/osx/AsynchronousSerialDeviceReader.h
+c000000004C4CF9C300000000000009FD
+t1280113091
+s2557
+i"SerialDevice.h"
+i<vector>
+
+N/Users/kevin/sandbox/monome-serial/osx/CCoreMIDI.cc
+c000000004C4CF9C30000000000003A10
+t1280113091
+s14864
+i"CCoreMIDI.h"
+i<mach/clock.h>
+
+N/Users/kevin/sandbox/monome-serial/osx/CCoreMIDI.h
+c000000004C4CF9C30000000000000CFC
+t1280113091
+s3324
+i<CoreMIDI/CoreMIDI.h>
+i<list>
+i<string>
+
+N/Users/kevin/sandbox/monome-serial/osx/English.lproj/InfoPlist.strings
+c000000004C4CF9C300000000000000B4
+t1280113091
+s180
+
+N/Users/kevin/sandbox/monome-serial/osx/English.lproj/MainMenu.nib
+c000000004C4CF9C300000000000000AA
+t1280113091
+s170
+
+N/Users/kevin/sandbox/monome-serial/osx/Lo.framework
+c000000004C4CF9C300000000000000CC
+t1280113091
+s204
+
+N/Users/kevin/sandbox/monome-serial/osx/Lo.framework/Lo
+c000000004C4CF9C30000000000018BB8
+t1280113091
+s101304
+
+N/Users/kevin/sandbox/monome-serial/osx/MonomeDeviceDefaults.cc
+c000000004C4CF9C30000000000002105
+t1280113091
+s8453
+i"MonomeDeviceDefaults.h"
+
+N/Users/kevin/sandbox/monome-serial/osx/MonomeDeviceDefaults.h
+c000000004C4CF9C30000000000000B08
+t1280113091
+s2824
+i"MonomeXXhDevice.h"
+i"CCoreMIDI.h"
+i"types.h"
+
+N/Users/kevin/sandbox/monome-serial/osx/MonomeSerialDefaults.h
+c000000004C4CF9C30000000000000769
+t1280113091
+s1897
+i"types.h"
+i"MonomeDeviceDefaults.h"
+i<vector>
+
+N/Users/kevin/sandbox/monome-serial/osx/MonomeSerialDefaults.mm
+c000000004C4CF9C30000000000001A3D
+t1280113091
+s6717
+i"MonomeSerialDefaults.h"
+i"ApplicationController.h"
+i<sys/types.h>
+i<sys/stat.h>
+i<sstream>
+
+N/Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.cc
+c000000004C4D0E850000000000008198
+t1280118405
+s33176
+i"MonomeXXhDevice.h"
+i"message.h"
+i"message256.h"
+i"messageMK.h"
+
+N/Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.h
+c000000004C4CF9C30000000000001A1A
+t1280113091
+s6682
+i"SerialDevice.h"
+i"CCoreMIDI.h"
+i<pthread.h>
+
+N/Users/kevin/sandbox/monome-serial/osx/OscAtom.cc
+c000000004C4CF9C3000000000000108B
+t1280113091
+s4235
+i"OscAtom.h"
+
+N/Users/kevin/sandbox/monome-serial/osx/OscAtom.h
+c000000004C4CF9C3000000000000087C
+t1280113091
+s2172
+i<string>
+
+N/Users/kevin/sandbox/monome-serial/osx/OscContext.cc
+c000000004C4CF9C3000000000000307A
+t1280113091
+s12410
+i<string>
+i<iostream>
+i<sstream>
+i<list>
+i"OscContext.h"
+i"OscException.h"
+
+N/Users/kevin/sandbox/monome-serial/osx/OscContext.h
+c000000004C4CF9C30000000000000CB2
+t1280113091
+s3250
+i<regex.h>
+i<string>
+i<list>
+i"OscAtom.h"
+
+N/Users/kevin/sandbox/monome-serial/osx/OscController.cc
+c000000004C4CF9C30000000000003067
+t1280113091
+s12391
+i"OscController.h"
+i"OscHostAddress.h"
+i"OscException.h"
+
+N/Users/kevin/sandbox/monome-serial/osx/OscController.h
+c000000004C4CF9C30000000000000B97
+t1280113091
+s2967
+i"OscAtom.h"
+i"OscContext.h"
+i"OscHostAddress.h"
+i<lo/lo.h>
+i<string>
+i<list>
+i<hash_map.h>
+
+N/Users/kevin/sandbox/monome-serial/osx/OscException.cc
+c000000004C4CF9C40000000000000A1B
+t1280113092
+s2587
+i<stdio.h>
+i"OscException.h"
+
+N/Users/kevin/sandbox/monome-serial/osx/OscException.h
+c000000004C4CF9C40000000000000656
+t1280113092
+s1622
+
+N/Users/kevin/sandbox/monome-serial/osx/OscHostAddress.cc
+c000000004C4CF9C400000000000006CE
+t1280113092
+s1742
+i"OscHostAddress.h"
+i"OscException.h"
+i<string>
+i<iostream>
+
+N/Users/kevin/sandbox/monome-serial/osx/OscHostAddress.h
+c000000004C4CF9C40000000000000543
+t1280113092
+s1347
+i<lo/lo.h>
+i<string>
+i<list>
+
+N/Users/kevin/sandbox/monome-serial/osx/SerialDevice.cc
+c000000004C4CF9C40000000000001CF4
+t1280113092
+s7412
+i"SerialDevice.h"
+i<stdio.h>
+i<string.h>
+i<unistd.h>
+i<fcntl.h>
+i<sys/ioctl.h>
+i<errno.h>
+i<paths.h>
+i<termios.h>
+i<sysexits.h>
+i<sys/param.h>
+i<sys/select.h>
+i<sys/time.h>
+i<time.h>
+i<iostream>
+i<sstream>
+
+N/Users/kevin/sandbox/monome-serial/osx/SerialDevice.h
+c000000004C4CF9C4000000000000097B
+t1280113092
+s2427
+i<termios.h>
+i<stdio.h>
+i<string.h>
+i<string>
+
+N/Users/kevin/sandbox/monome-serial/osx/SerialDeviceNotifications.c
+c000000004C4CF9C40000000000003C99
+t1280113092
+s15513
+i"SerialDeviceNotifications.h"
+i<stdio.h>
+i<string.h>
+i<unistd.h>
+i<fcntl.h>
+i<sys/ioctl.h>
+i<errno.h>
+i<paths.h>
+i<termios.h>
+i<sysexits.h>
+i<sys/param.h>
+i<sys/select.h>
+i<sys/time.h>
+i<time.h>
+i<pthread.h>
+i<regex.h>
+i<CoreFoundation/CoreFoundation.h>
+i<IOKit/IOKitLib.h>
+i<IOKit/serial/IOSerialKeys.h>
+i<IOKit/IOBSD.h>
+
+N/Users/kevin/sandbox/monome-serial/osx/SerialDeviceNotifications.h
+c000000004C4CF9C400000000000005A1
+t1280113092
+s1441
+
+N/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/AppController.o
+t1280118418
+s32628
+
+N/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/ApplicationController.o
+t1280118420
+s74788
+
+N/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/AsynchronousSerialDeviceReader.o
+t1280118419
+s8472
+
+N/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/CCoreMIDI.o
+t1280118421
+s14868
+
+N/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/MonomeDeviceDefaults.o
+t1280118422
+s9820
+
+N/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/MonomeSerial
+t2
+s0
+
+N/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/MonomeSerial.LinkFileList
+c000000004C4D0E850000000000000959
+t1280118405
+s2393
+
+N/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/MonomeSerialDefaults.o
+t1280118423
+s13404
+
+N/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/MonomeXXhDevice.o
+t2
+s0
+
+N/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/OscAtom.o
+t1280118423
+s5516
+
+N/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/OscContext.o
+t1280118424
+s19928
+
+N/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/OscController.o
+t1280118425
+s43824
+
+N/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/OscException.o
+t1280118424
+s2184
+
+N/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/OscHostAddress.o
+t1280118424
+s5424
+
+N/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/SerialDevice.o
+t1280118425
+s9628
+
+N/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/SerialDeviceNotifications.o
+t1280118425
+s5636
+
+N/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/main.o
+t1280118415
+s1832
+
+N/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/message.o
+t1280118420
+s860
+
+N/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/message256.o
+t1280118425
+s1304
+
+N/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/messageMK.o
+t1280118425
+s1264
+
+N/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/AppController.o
+t1280118408
+s35104
+
+N/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/ApplicationController.o
+t1280118411
+s81360
+
+N/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/AsynchronousSerialDeviceReader.o
+t1280118409
+s8312
+
+N/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/CCoreMIDI.o
+t1280118410
+s15612
+
+N/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/MonomeDeviceDefaults.o
+t1280118411
+s10140
+
+N/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/MonomeSerial
+t2
+s0
+
+N/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/MonomeSerial.LinkFileList
+c000000004C4D0E850000000000000947
+t1280118405
+s2375
+
+N/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/MonomeSerialDefaults.o
+t1280118413
+s13340
+
+N/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/MonomeXXhDevice.o
+t2
+s0
+
+N/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/OscAtom.o
+t1280118412
+s6080
+
+N/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/OscContext.o
+t1280118413
+s20828
+
+N/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/OscController.o
+t1280118414
+s43972
+
+N/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/OscException.o
+t1280118413
+s2532
+
+N/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/OscHostAddress.o
+t1280118414
+s5708
+
+N/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/SerialDevice.o
+t1280118415
+s10224
+
+N/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/SerialDeviceNotifications.o
+t1280118414
+s6968
+
+N/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/main.o
+t1280118407
+s1892
+
+N/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/message.o
+t1280118410
+s912
+
+N/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/message256.o
+t1280118415
+s1300
+
+N/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/messageMK.o
+t1280118415
+s1280
+
+N/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/MonomeSerial.app
+t2
+s0
+
+N/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/MonomeSerial.app/Contents/Frameworks/Lo.framework
+t1280118425
+s204
+
+N/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/MonomeSerial.app/Contents/Info.plist
+t1280118405
+s971
+
+N/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/MonomeSerial.app/Contents/MacOS/MonomeSerial
+t2
+s0
+
+N/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/MonomeSerial.app/Contents/PkgInfo
+t1280118405
+s8
+
+N/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/MonomeSerial.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1280118405
+s180
+
+N/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/MonomeSerial.app/Contents/Resources/English.lproj/MainMenu.nib
+t1280118405
+s56634
+
+N/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/MonomeSerial.app/Contents/Resources/gplheader.txt
+t1280118405
+s849
+
+N/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/MonomeSerial.app/Contents/Resources/monome-serial.icns
+t1280118405
+s31983
+
+N/Users/kevin/sandbox/monome-serial/osx/gplheader.txt
+c000000004C4CF9C40000000000000351
+t1280113092
+s849
+
+N/Users/kevin/sandbox/monome-serial/osx/main.m
+c000000004C4CF9C40000000000000101
+t1280113092
+s257
+i<Cocoa/Cocoa.h>
+
+N/Users/kevin/sandbox/monome-serial/osx/message.c
+c000000004C4CF9C40000000000000B1D
+t1280113092
+s2845
+i"message.h"
+
+N/Users/kevin/sandbox/monome-serial/osx/message.h
+c000000004C4CF9C40000000000000FC4
+t1280113092
+s4036
+i"types.h"
+
+N/Users/kevin/sandbox/monome-serial/osx/message256.c
+c000000004C4CF9C4000000000000108A
+t1280113092
+s4234
+i"message256.h"
+
+N/Users/kevin/sandbox/monome-serial/osx/message256.h
+c000000004C4CF9C40000000000000F08
+t1280113092
+s3848
+i"message.h"
+
+N/Users/kevin/sandbox/monome-serial/osx/messageMK.c
+c000000004C4CF9C40000000000001098
+t1280113092
+s4248
+i"messageMK.h"
+
+N/Users/kevin/sandbox/monome-serial/osx/messageMK.h
+c000000004C4CF9C4000000000000137A
+t1280113092
+s4986
+i"message.h"
+
+N/Users/kevin/sandbox/monome-serial/osx/monome-serial.icns
+c000000004C4CF9C40000000000007CEF
+t1280113092
+s31983
+
+N/Users/kevin/sandbox/monome-serial/osx/osc.h
+c000000004C4CF9C40000000000001BFC
+t1280113092
+s7164
+i"message.h"
+i"message256.h"
+
+N/Users/kevin/sandbox/monome-serial/osx/types.h
+c000000004C4CF9C400000000000005EE
+t1280113092
+s1518
+i<stdint.h>
+
+N/usr/local/include/lo/lo.h
+c000000004C05C26B0000000000002FF9
+t1275445867
+s12281
+
+NInfo.plist
+c000000004C4CF9C300000000000003DD
+t1280113091
+s989
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies301811205#301811205#0(0"0(0#1#0"32088628383449192#0"0#
+
+CCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/AppController.o" /Users/kevin/sandbox/monome-serial/osx/AppController.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s301811215.132665
+e301811218.657520
+r1
+xCompileC
+xbuild/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/AppController.o
+x/Users/kevin/sandbox/monome-serial/osx/AppController.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+o/Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.h:30: warning: 'iquadrant' defined but not used
+lSLF07#2@63"Compile /Users/kevin/sandbox/monome-serial/osx/AppController.mm301811215#301811218#0(103"/Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.h:30: warning: 'iquadrant' defined but not used1(22@32"'iquadrant' defined but not used301811218#0#103#0(6@56"/Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.h301805891#30#0#30#0#24"'*' defined but not used0(0#0#55"/Users/kevin/sandbox/monome-serial/osx/AppController.mm4300885448#1158"    cd /Users/kevin/sandbox/monome-serial/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/MonomeSerial.hmap" "-F/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5" -F/Users/kevin/sandbox/monome-serial/osx "-I/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/include" -I../../src/monomeserial -I/usr/local/include "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources/i386" "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources" -Wno-deprecated -c /Users/kevin/sandbox/monome-serial/osx/AppController.mm -o "/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/AppController.o"0#
+
+CCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/ApplicationController.o" /Users/kevin/sandbox/monome-serial/osx/ApplicationController.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s301811215.964395
+e301811220.871863
+r1
+xCompileC
+xbuild/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/ApplicationController.o
+x/Users/kevin/sandbox/monome-serial/osx/ApplicationController.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+o/Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.h:30: warning: 'iquadrant' defined but not used
+lSLF07#2@71"Compile /Users/kevin/sandbox/monome-serial/osx/ApplicationController.mm301811215#301811220#0(103"/Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.h:30: warning: 'iquadrant' defined but not used1(22@32"'iquadrant' defined but not used301811220#0#103#0(6@56"/Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.h301805891#30#0#30#0#24"'*' defined but not used0(0#0#63"/Users/kevin/sandbox/monome-serial/osx/ApplicationController.mm4300885448#1174"    cd /Users/kevin/sandbox/monome-serial/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/MonomeSerial.hmap" "-F/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5" -F/Users/kevin/sandbox/monome-serial/osx "-I/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/include" -I../../src/monomeserial -I/usr/local/include "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources/i386" "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources" -Wno-deprecated -c /Users/kevin/sandbox/monome-serial/osx/ApplicationController.mm -o "/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/ApplicationController.o"0#
+
+CCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/AsynchronousSerialDeviceReader.o" /Users/kevin/sandbox/monome-serial/osx/AsynchronousSerialDeviceReader.cc normal i386 c++ com.apple.compilers.gcc.4_2
+s301811218.657706
+e301811219.336419
+r1
+xCompileC
+xbuild/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/AsynchronousSerialDeviceReader.o
+x/Users/kevin/sandbox/monome-serial/osx/AsynchronousSerialDeviceReader.cc
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/kevin/sandbox/monome-serial/osx/AsynchronousSerialDeviceReader.cc301811218#301811219#0(0"0(0#0#72"/Users/kevin/sandbox/monome-serial/osx/AsynchronousSerialDeviceReader.cc4300885448#1182"    cd /Users/kevin/sandbox/monome-serial/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/MonomeSerial.hmap" "-F/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5" -F/Users/kevin/sandbox/monome-serial/osx "-I/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/include" -I../../src/monomeserial -I/usr/local/include "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources/i386" "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources" -Wno-deprecated -c /Users/kevin/sandbox/monome-serial/osx/AsynchronousSerialDeviceReader.cc -o "/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/AsynchronousSerialDeviceReader.o"0#
+
+CCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/CCoreMIDI.o" /Users/kevin/sandbox/monome-serial/osx/CCoreMIDI.cc normal i386 c++ com.apple.compilers.gcc.4_2
+s301811219.336522
+e301811221.144689
+r1
+xCompileC
+xbuild/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/CCoreMIDI.o
+x/Users/kevin/sandbox/monome-serial/osx/CCoreMIDI.cc
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/kevin/sandbox/monome-serial/osx/CCoreMIDI.cc: In member function 'void CCoreMIDI::disposeSource(void*)':
+o/Users/kevin/sandbox/monome-serial/osx/CCoreMIDI.cc:319: warning: unused variable 'status'
+o/Users/kevin/sandbox/monome-serial/osx/CCoreMIDI.cc: In member function 'void CCoreMIDI::disposeDestination(void*)':
+o/Users/kevin/sandbox/monome-serial/osx/CCoreMIDI.cc:328: warning: unused variable 'status'
+lSLF07#2@59"Compile /Users/kevin/sandbox/monome-serial/osx/CCoreMIDI.cc301811219#301811221#0(411"/Users/kevin/sandbox/monome-serial/osx/CCoreMIDI.cc: In member function 'void CCoreMIDI::disposeSource(void*)':/Users/kevin/sandbox/monome-serial/osx/CCoreMIDI.cc:319: warning: unused variable 'status'/Users/kevin/sandbox/monome-serial/osx/CCoreMIDI.cc: In member function 'void CCoreMIDI::disposeDestination(void*)':/Users/kevin/sandbox/monome-serial/osx/CCoreMIDI.cc:328: warning: unused variable 'status'2(22@24"Unused variable 'status'301811220#112#91#0(6@51"/Users/kevin/sandbox/monome-serial/osx/CCoreMIDI.cc301805891#319#0#319#0#19"unused variable '*'0(22@24"Unused variable 'status'301811220#320#91#0(6@51"/Users/kevin/sandbox/monome-serial/osx/CCoreMIDI.cc301805891#328#0#328#0#19"unused variable '*'0(0#0#51"/Users/kevin/sandbox/monome-serial/osx/CCoreMIDI.cc4300885448#1140"    cd /Users/kevin/sandbox/monome-serial/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/MonomeSerial.hmap" "-F/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5" -F/Users/kevin/sandbox/monome-serial/osx "-I/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/include" -I../../src/monomeserial -I/usr/local/include "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources/i386" "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources" -Wno-deprecated -c /Users/kevin/sandbox/monome-serial/osx/CCoreMIDI.cc -o "/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/CCoreMIDI.o"0#
+
+CCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/MonomeDeviceDefaults.o" /Users/kevin/sandbox/monome-serial/osx/MonomeDeviceDefaults.cc normal i386 c++ com.apple.compilers.gcc.4_2
+s301811220.932438
+e301811222.345895
+r1
+xCompileC
+xbuild/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/MonomeDeviceDefaults.o
+x/Users/kevin/sandbox/monome-serial/osx/MonomeDeviceDefaults.cc
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.h:30: warning: 'iquadrant' defined but not used
+lSLF07#2@70"Compile /Users/kevin/sandbox/monome-serial/osx/MonomeDeviceDefaults.cc301811220#301811222#0(103"/Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.h:30: warning: 'iquadrant' defined but not used1(22@32"'iquadrant' defined but not used301811222#0#103#0(6@56"/Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.h301805891#30#0#30#0#24"'*' defined but not used0(0#0#62"/Users/kevin/sandbox/monome-serial/osx/MonomeDeviceDefaults.cc4300885448#1162"    cd /Users/kevin/sandbox/monome-serial/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/MonomeSerial.hmap" "-F/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5" -F/Users/kevin/sandbox/monome-serial/osx "-I/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/include" -I../../src/monomeserial -I/usr/local/include "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources/i386" "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources" -Wno-deprecated -c /Users/kevin/sandbox/monome-serial/osx/MonomeDeviceDefaults.cc -o "/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/MonomeDeviceDefaults.o"0#
+
+CCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/MonomeSerialDefaults.o" /Users/kevin/sandbox/monome-serial/osx/MonomeSerialDefaults.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s301811221.144804
+e301811223.480399
+r1
+xCompileC
+xbuild/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/MonomeSerialDefaults.o
+x/Users/kevin/sandbox/monome-serial/osx/MonomeSerialDefaults.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+o/Users/kevin/sandbox/monome-serial/osx/MonomeSerialDefaults.mm: In member function 'void MonomeSerialDefaults::writePreferences()':
+o/Users/kevin/sandbox/monome-serial/osx/MonomeSerialDefaults.mm:139: warning: unused variable 'err'
+o/Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.h: At global scope:
+o/Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.h:30: warning: 'iquadrant' defined but not used
+lSLF07#2@70"Compile /Users/kevin/sandbox/monome-serial/osx/MonomeSerialDefaults.mm301811221#301811223#0(409"/Users/kevin/sandbox/monome-serial/osx/MonomeSerialDefaults.mm: In member function 'void MonomeSerialDefaults::writePreferences()':/Users/kevin/sandbox/monome-serial/osx/MonomeSerialDefaults.mm:139: warning: unused variable 'err'/Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.h: At global scope:/Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.h:30: warning: 'iquadrant' defined but not used3(22@21"Unused variable 'err'301811223#132#99#0(6@62"/Users/kevin/sandbox/monome-serial/osx/MonomeSerialDefaults.mm301805891#139#0#139#0#19"unused variable '*'0(23@16"At global scope:301811223#231#75#0(6@56"/Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.h301805891#0#0#0#0#0"0(22@32"'iquadrant' defined but not used301811223#306#103#0(6@56"/Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.h301805891#30#0#30#0#24"'*' defined but not used0(0#0#62"/Users/kevin/sandbox/monome-serial/osx/MonomeSerialDefaults.mm4300885448#1172"    cd /Users/kevin/sandbox/monome-serial/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/MonomeSerial.hmap" "-F/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5" -F/Users/kevin/sandbox/monome-serial/osx "-I/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/include" -I../../src/monomeserial -I/usr/local/include "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources/i386" "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources" -Wno-deprecated -c /Users/kevin/sandbox/monome-serial/osx/MonomeSerialDefaults.mm -o "/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/MonomeSerialDefaults.o"0#
+
+CCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/MonomeXXhDevice.o" /Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.cc normal i386 c++ com.apple.compilers.gcc.4_2
+s301811222.346008
+e301811223.176421
+r0
+xCompileC
+xbuild/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/MonomeXXhDevice.o
+x/Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.cc
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.cc: In member function 'void MonomeXXhDevice::oscLedStateChangeEvent(unsigned int, unsigned int, bool)':
+o/Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.cc:579: error: 'kDeviceType_mk_type' was not declared in this scope
+lSLF07#2@65"Compile /Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.cc301811222#301811223#0(283"/Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.cc: In member function 'void MonomeXXhDevice::oscLedStateChangeEvent(unsigned int, unsigned int, bool)':/Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.cc:579: error: 'kDeviceType_mk_type' was not declared in this scope1(4@52"'kDeviceType_mk_type' was not declared in this scope301811223#160#123#0(6@57"/Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.cc301811205#579#0#579#0#34"'*' was not declared in this scope0(0#0#57"/Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.cc4300885448#1152"    cd /Users/kevin/sandbox/monome-serial/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/MonomeSerial.hmap" "-F/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5" -F/Users/kevin/sandbox/monome-serial/osx "-I/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/include" -I../../src/monomeserial -I/usr/local/include "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources/i386" "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources" -Wno-deprecated -c /Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.cc -o "/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/MonomeXXhDevice.o"1#
+
+CCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/OscAtom.o" /Users/kevin/sandbox/monome-serial/osx/OscAtom.cc normal i386 c++ com.apple.compilers.gcc.4_2
+s301811223.176601
+e301811223.560176
+r1
+xCompileC
+xbuild/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/OscAtom.o
+x/Users/kevin/sandbox/monome-serial/osx/OscAtom.cc
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/kevin/sandbox/monome-serial/osx/OscAtom.cc301811223#301811223#0(0"0(0#0#49"/Users/kevin/sandbox/monome-serial/osx/OscAtom.cc4300885448#1136"    cd /Users/kevin/sandbox/monome-serial/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/MonomeSerial.hmap" "-F/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5" -F/Users/kevin/sandbox/monome-serial/osx "-I/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/include" -I../../src/monomeserial -I/usr/local/include "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources/i386" "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources" -Wno-deprecated -c /Users/kevin/sandbox/monome-serial/osx/OscAtom.cc -o "/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/OscAtom.o"0#
+
+CCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/OscContext.o" /Users/kevin/sandbox/monome-serial/osx/OscContext.cc normal i386 c++ com.apple.compilers.gcc.4_2
+s301811223.480503
+e301811224.488519
+r1
+xCompileC
+xbuild/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/OscContext.o
+x/Users/kevin/sandbox/monome-serial/osx/OscContext.cc
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/kevin/sandbox/monome-serial/osx/OscContext.cc301811223#301811224#0(0"0(0#0#52"/Users/kevin/sandbox/monome-serial/osx/OscContext.cc4300885448#1142"    cd /Users/kevin/sandbox/monome-serial/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/MonomeSerial.hmap" "-F/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5" -F/Users/kevin/sandbox/monome-serial/osx "-I/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/include" -I../../src/monomeserial -I/usr/local/include "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources/i386" "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources" -Wno-deprecated -c /Users/kevin/sandbox/monome-serial/osx/OscContext.cc -o "/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/OscContext.o"0#
+
+CCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/OscController.o" /Users/kevin/sandbox/monome-serial/osx/OscController.cc normal i386 c++ com.apple.compilers.gcc.4_2
+s301811223.560295
+e301811225.037003
+r1
+xCompileC
+xbuild/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/OscController.o
+x/Users/kevin/sandbox/monome-serial/osx/OscController.cc
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/kevin/sandbox/monome-serial/osx/OscController.cc301811223#301811225#0(0"0(0#0#55"/Users/kevin/sandbox/monome-serial/osx/OscController.cc4300885448#1148"    cd /Users/kevin/sandbox/monome-serial/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/MonomeSerial.hmap" "-F/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5" -F/Users/kevin/sandbox/monome-serial/osx "-I/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/include" -I../../src/monomeserial -I/usr/local/include "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources/i386" "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources" -Wno-deprecated -c /Users/kevin/sandbox/monome-serial/osx/OscController.cc -o "/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/OscController.o"0#
+
+CCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/OscException.o" /Users/kevin/sandbox/monome-serial/osx/OscException.cc normal i386 c++ com.apple.compilers.gcc.4_2
+s301811224.488632
+e301811224.541468
+r1
+xCompileC
+xbuild/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/OscException.o
+x/Users/kevin/sandbox/monome-serial/osx/OscException.cc
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/kevin/sandbox/monome-serial/osx/OscException.cc301811224#301811224#0(0"0(0#0#54"/Users/kevin/sandbox/monome-serial/osx/OscException.cc4300885448#1146"    cd /Users/kevin/sandbox/monome-serial/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/MonomeSerial.hmap" "-F/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5" -F/Users/kevin/sandbox/monome-serial/osx "-I/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/include" -I../../src/monomeserial -I/usr/local/include "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources/i386" "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources" -Wno-deprecated -c /Users/kevin/sandbox/monome-serial/osx/OscException.cc -o "/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/OscException.o"0#
+
+CCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/OscHostAddress.o" /Users/kevin/sandbox/monome-serial/osx/OscHostAddress.cc normal i386 c++ com.apple.compilers.gcc.4_2
+s301811224.541585
+e301811225.006841
+r1
+xCompileC
+xbuild/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/OscHostAddress.o
+x/Users/kevin/sandbox/monome-serial/osx/OscHostAddress.cc
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/kevin/sandbox/monome-serial/osx/OscHostAddress.cc301811224#301811225#0(0"0(0#0#56"/Users/kevin/sandbox/monome-serial/osx/OscHostAddress.cc4300885448#1150"    cd /Users/kevin/sandbox/monome-serial/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/MonomeSerial.hmap" "-F/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5" -F/Users/kevin/sandbox/monome-serial/osx "-I/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/include" -I../../src/monomeserial -I/usr/local/include "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources/i386" "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources" -Wno-deprecated -c /Users/kevin/sandbox/monome-serial/osx/OscHostAddress.cc -o "/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/OscHostAddress.o"0#
+
+CCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/SerialDevice.o" /Users/kevin/sandbox/monome-serial/osx/SerialDevice.cc normal i386 c++ com.apple.compilers.gcc.4_2
+s301811225.007034
+e301811225.644931
+r1
+xCompileC
+xbuild/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/SerialDevice.o
+x/Users/kevin/sandbox/monome-serial/osx/SerialDevice.cc
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/kevin/sandbox/monome-serial/osx/SerialDevice.cc301811225#301811225#0(0"0(0#0#54"/Users/kevin/sandbox/monome-serial/osx/SerialDevice.cc4300885448#1146"    cd /Users/kevin/sandbox/monome-serial/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/MonomeSerial.hmap" "-F/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5" -F/Users/kevin/sandbox/monome-serial/osx "-I/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/include" -I../../src/monomeserial -I/usr/local/include "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources/i386" "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources" -Wno-deprecated -c /Users/kevin/sandbox/monome-serial/osx/SerialDevice.cc -o "/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/SerialDevice.o"0#
+
+CCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/SerialDeviceNotifications.o" /Users/kevin/sandbox/monome-serial/osx/SerialDeviceNotifications.c normal i386 c com.apple.compilers.gcc.4_2
+s301811225.037125
+e301811225.242471
+r1
+xCompileC
+xbuild/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/SerialDeviceNotifications.o
+x/Users/kevin/sandbox/monome-serial/osx/SerialDeviceNotifications.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/kevin/sandbox/monome-serial/osx/SerialDeviceNotifications.c301811225#301811225#0(0"0(0#0#66"/Users/kevin/sandbox/monome-serial/osx/SerialDeviceNotifications.c4300885448#1125"    cd /Users/kevin/sandbox/monome-serial/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/MonomeSerial.hmap" "-F/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5" -F/Users/kevin/sandbox/monome-serial/osx "-I/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/include" -I../../src/monomeserial -I/usr/local/include "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources/i386" "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources" -c /Users/kevin/sandbox/monome-serial/osx/SerialDeviceNotifications.c -o "/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/SerialDeviceNotifications.o"0#
+
+CCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/main.o" /Users/kevin/sandbox/monome-serial/osx/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s301811215.081556
+e301811215.964223
+r1
+xCompileC
+xbuild/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/main.o
+x/Users/kevin/sandbox/monome-serial/osx/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/kevin/sandbox/monome-serial/osx/main.m301811215#301811215#0(0"0(0#0#45"/Users/kevin/sandbox/monome-serial/osx/main.m4300885448#1093"    cd /Users/kevin/sandbox/monome-serial/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/MonomeSerial.hmap" "-F/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5" -F/Users/kevin/sandbox/monome-serial/osx "-I/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/include" -I../../src/monomeserial -I/usr/local/include "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources/i386" "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources" -c /Users/kevin/sandbox/monome-serial/osx/main.m -o "/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/main.o"0#
+
+CCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/message.o" /Users/kevin/sandbox/monome-serial/osx/message.c normal i386 c com.apple.compilers.gcc.4_2
+s301811220.872051
+e301811220.932321
+r1
+xCompileC
+xbuild/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/message.o
+x/Users/kevin/sandbox/monome-serial/osx/message.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/kevin/sandbox/monome-serial/osx/message.c301811220#301811220#0(0"0(0#0#48"/Users/kevin/sandbox/monome-serial/osx/message.c4300885448#1089"    cd /Users/kevin/sandbox/monome-serial/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/MonomeSerial.hmap" "-F/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5" -F/Users/kevin/sandbox/monome-serial/osx "-I/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/include" -I../../src/monomeserial -I/usr/local/include "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources/i386" "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources" -c /Users/kevin/sandbox/monome-serial/osx/message.c -o "/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/message.o"0#
+
+CCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/message256.o" /Users/kevin/sandbox/monome-serial/osx/message256.c normal i386 c com.apple.compilers.gcc.4_2
+s301811225.242631
+e301811225.306334
+r1
+xCompileC
+xbuild/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/message256.o
+x/Users/kevin/sandbox/monome-serial/osx/message256.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/kevin/sandbox/monome-serial/osx/message256.c301811225#301811225#0(0"0(0#0#51"/Users/kevin/sandbox/monome-serial/osx/message256.c4300885448#1095"    cd /Users/kevin/sandbox/monome-serial/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/MonomeSerial.hmap" "-F/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5" -F/Users/kevin/sandbox/monome-serial/osx "-I/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/include" -I../../src/monomeserial -I/usr/local/include "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources/i386" "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources" -c /Users/kevin/sandbox/monome-serial/osx/message256.c -o "/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/message256.o"0#
+
+CCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/messageMK.o" /Users/kevin/sandbox/monome-serial/osx/messageMK.c normal i386 c com.apple.compilers.gcc.4_2
+s301811225.306438
+e301811225.367743
+r1
+xCompileC
+xbuild/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/messageMK.o
+x/Users/kevin/sandbox/monome-serial/osx/messageMK.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/kevin/sandbox/monome-serial/osx/messageMK.c301811225#301811225#0(0"0(0#0#50"/Users/kevin/sandbox/monome-serial/osx/messageMK.c4300885448#1093"    cd /Users/kevin/sandbox/monome-serial/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/MonomeSerial.hmap" "-F/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5" -F/Users/kevin/sandbox/monome-serial/osx "-I/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/include" -I../../src/monomeserial -I/usr/local/include "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources/i386" "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources" -c /Users/kevin/sandbox/monome-serial/osx/messageMK.c -o "/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/messageMK.o"0#
+
+CCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/AppController.o" /Users/kevin/sandbox/monome-serial/osx/AppController.mm normal ppc objective-c++ com.apple.compilers.gcc.4_2
+s301811205.790123
+e301811208.878113
+r1
+xCompileC
+xbuild/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/AppController.o
+x/Users/kevin/sandbox/monome-serial/osx/AppController.mm
+xnormal
+xppc
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+o/Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.h:30: warning: 'iquadrant' defined but not used
+lSLF07#2@63"Compile /Users/kevin/sandbox/monome-serial/osx/AppController.mm301811205#301811208#0(103"/Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.h:30: warning: 'iquadrant' defined but not used1(22@32"'iquadrant' defined but not used301811208#0#103#0(6@56"/Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.h301805891#30#0#30#0#24"'*' defined but not used0(0#0#55"/Users/kevin/sandbox/monome-serial/osx/AppController.mm4300885448#1152"    cd /Users/kevin/sandbox/monome-serial/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/MonomeSerial.hmap" "-F/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5" -F/Users/kevin/sandbox/monome-serial/osx "-I/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/include" -I../../src/monomeserial -I/usr/local/include "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources/ppc" "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources" -Wno-deprecated -c /Users/kevin/sandbox/monome-serial/osx/AppController.mm -o "/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/AppController.o"0#
+
+CCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/ApplicationController.o" /Users/kevin/sandbox/monome-serial/osx/ApplicationController.mm normal ppc objective-c++ com.apple.compilers.gcc.4_2
+s301811207.319885
+e301811211.147318
+r1
+xCompileC
+xbuild/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/ApplicationController.o
+x/Users/kevin/sandbox/monome-serial/osx/ApplicationController.mm
+xnormal
+xppc
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+o/Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.h:30: warning: 'iquadrant' defined but not used
+lSLF07#2@71"Compile /Users/kevin/sandbox/monome-serial/osx/ApplicationController.mm301811207#301811211#0(103"/Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.h:30: warning: 'iquadrant' defined but not used1(22@32"'iquadrant' defined but not used301811211#0#103#0(6@56"/Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.h301805891#30#0#30#0#24"'*' defined but not used0(0#0#63"/Users/kevin/sandbox/monome-serial/osx/ApplicationController.mm4300885448#1168"    cd /Users/kevin/sandbox/monome-serial/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/MonomeSerial.hmap" "-F/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5" -F/Users/kevin/sandbox/monome-serial/osx "-I/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/include" -I../../src/monomeserial -I/usr/local/include "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources/ppc" "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources" -Wno-deprecated -c /Users/kevin/sandbox/monome-serial/osx/ApplicationController.mm -o "/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/ApplicationController.o"0#
+
+CCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/AsynchronousSerialDeviceReader.o" /Users/kevin/sandbox/monome-serial/osx/AsynchronousSerialDeviceReader.cc normal ppc c++ com.apple.compilers.gcc.4_2
+s301811208.878287
+e301811209.274065
+r1
+xCompileC
+xbuild/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/AsynchronousSerialDeviceReader.o
+x/Users/kevin/sandbox/monome-serial/osx/AsynchronousSerialDeviceReader.cc
+xnormal
+xppc
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/kevin/sandbox/monome-serial/osx/AsynchronousSerialDeviceReader.cc301811208#301811209#0(0"0(0#0#72"/Users/kevin/sandbox/monome-serial/osx/AsynchronousSerialDeviceReader.cc4300885448#1176"    cd /Users/kevin/sandbox/monome-serial/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/MonomeSerial.hmap" "-F/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5" -F/Users/kevin/sandbox/monome-serial/osx "-I/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/include" -I../../src/monomeserial -I/usr/local/include "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources/ppc" "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources" -Wno-deprecated -c /Users/kevin/sandbox/monome-serial/osx/AsynchronousSerialDeviceReader.cc -o "/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/AsynchronousSerialDeviceReader.o"0#
+
+CCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/CCoreMIDI.o" /Users/kevin/sandbox/monome-serial/osx/CCoreMIDI.cc normal ppc c++ com.apple.compilers.gcc.4_2
+s301811209.274177
+e301811210.366525
+r1
+xCompileC
+xbuild/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/CCoreMIDI.o
+x/Users/kevin/sandbox/monome-serial/osx/CCoreMIDI.cc
+xnormal
+xppc
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/kevin/sandbox/monome-serial/osx/CCoreMIDI.cc: In member function 'void CCoreMIDI::disposeSource(void*)':
+o/Users/kevin/sandbox/monome-serial/osx/CCoreMIDI.cc:319: warning: unused variable 'status'
+o/Users/kevin/sandbox/monome-serial/osx/CCoreMIDI.cc: In member function 'void CCoreMIDI::disposeDestination(void*)':
+o/Users/kevin/sandbox/monome-serial/osx/CCoreMIDI.cc:328: warning: unused variable 'status'
+lSLF07#2@59"Compile /Users/kevin/sandbox/monome-serial/osx/CCoreMIDI.cc301811209#301811210#0(411"/Users/kevin/sandbox/monome-serial/osx/CCoreMIDI.cc: In member function 'void CCoreMIDI::disposeSource(void*)':/Users/kevin/sandbox/monome-serial/osx/CCoreMIDI.cc:319: warning: unused variable 'status'/Users/kevin/sandbox/monome-serial/osx/CCoreMIDI.cc: In member function 'void CCoreMIDI::disposeDestination(void*)':/Users/kevin/sandbox/monome-serial/osx/CCoreMIDI.cc:328: warning: unused variable 'status'2(22@24"Unused variable 'status'301811210#112#91#0(6@51"/Users/kevin/sandbox/monome-serial/osx/CCoreMIDI.cc301805891#319#0#319#0#19"unused variable '*'0(22@24"Unused variable 'status'301811210#320#91#0(6@51"/Users/kevin/sandbox/monome-serial/osx/CCoreMIDI.cc301805891#328#0#328#0#19"unused variable '*'0(0#0#51"/Users/kevin/sandbox/monome-serial/osx/CCoreMIDI.cc4300885448#1134"    cd /Users/kevin/sandbox/monome-serial/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/MonomeSerial.hmap" "-F/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5" -F/Users/kevin/sandbox/monome-serial/osx "-I/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/include" -I../../src/monomeserial -I/usr/local/include "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources/ppc" "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources" -Wno-deprecated -c /Users/kevin/sandbox/monome-serial/osx/CCoreMIDI.cc -o "/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/CCoreMIDI.o"0#
+
+CCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/MonomeDeviceDefaults.o" /Users/kevin/sandbox/monome-serial/osx/MonomeDeviceDefaults.cc normal ppc c++ com.apple.compilers.gcc.4_2
+s301811210.529040
+e301811211.532830
+r1
+xCompileC
+xbuild/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/MonomeDeviceDefaults.o
+x/Users/kevin/sandbox/monome-serial/osx/MonomeDeviceDefaults.cc
+xnormal
+xppc
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.h:30: warning: 'iquadrant' defined but not used
+lSLF07#2@70"Compile /Users/kevin/sandbox/monome-serial/osx/MonomeDeviceDefaults.cc301811210#301811211#0(103"/Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.h:30: warning: 'iquadrant' defined but not used1(22@32"'iquadrant' defined but not used301811211#0#103#0(6@56"/Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.h301805891#30#0#30#0#24"'*' defined but not used0(0#0#62"/Users/kevin/sandbox/monome-serial/osx/MonomeDeviceDefaults.cc4300885448#1156"    cd /Users/kevin/sandbox/monome-serial/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/MonomeSerial.hmap" "-F/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5" -F/Users/kevin/sandbox/monome-serial/osx "-I/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/include" -I../../src/monomeserial -I/usr/local/include "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources/ppc" "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources" -Wno-deprecated -c /Users/kevin/sandbox/monome-serial/osx/MonomeDeviceDefaults.cc -o "/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/MonomeDeviceDefaults.o"0#
+
+CCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/MonomeSerialDefaults.o" /Users/kevin/sandbox/monome-serial/osx/MonomeSerialDefaults.mm normal ppc objective-c++ com.apple.compilers.gcc.4_2
+s301811211.147426
+e301811213.177631
+r1
+xCompileC
+xbuild/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/MonomeSerialDefaults.o
+x/Users/kevin/sandbox/monome-serial/osx/MonomeSerialDefaults.mm
+xnormal
+xppc
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+o/Users/kevin/sandbox/monome-serial/osx/MonomeSerialDefaults.mm: In member function 'void MonomeSerialDefaults::writePreferences()':
+o/Users/kevin/sandbox/monome-serial/osx/MonomeSerialDefaults.mm:139: warning: unused variable 'err'
+o/Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.h: At global scope:
+o/Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.h:30: warning: 'iquadrant' defined but not used
+lSLF07#2@70"Compile /Users/kevin/sandbox/monome-serial/osx/MonomeSerialDefaults.mm301811211#301811213#0(409"/Users/kevin/sandbox/monome-serial/osx/MonomeSerialDefaults.mm: In member function 'void MonomeSerialDefaults::writePreferences()':/Users/kevin/sandbox/monome-serial/osx/MonomeSerialDefaults.mm:139: warning: unused variable 'err'/Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.h: At global scope:/Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.h:30: warning: 'iquadrant' defined but not used3(22@21"Unused variable 'err'301811212#132#99#0(6@62"/Users/kevin/sandbox/monome-serial/osx/MonomeSerialDefaults.mm301805891#139#0#139#0#19"unused variable '*'0(23@16"At global scope:301811213#231#75#0(6@56"/Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.h301805891#0#0#0#0#0"0(22@32"'iquadrant' defined but not used301811213#306#103#0(6@56"/Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.h301805891#30#0#30#0#24"'*' defined but not used0(0#0#62"/Users/kevin/sandbox/monome-serial/osx/MonomeSerialDefaults.mm4300885448#1166"    cd /Users/kevin/sandbox/monome-serial/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/MonomeSerial.hmap" "-F/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5" -F/Users/kevin/sandbox/monome-serial/osx "-I/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/include" -I../../src/monomeserial -I/usr/local/include "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources/ppc" "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources" -Wno-deprecated -c /Users/kevin/sandbox/monome-serial/osx/MonomeSerialDefaults.mm -o "/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/MonomeSerialDefaults.o"0#
+
+CCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/MonomeXXhDevice.o" /Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.cc normal ppc c++ com.apple.compilers.gcc.4_2
+s301811211.532939
+e301811212.426262
+r0
+xCompileC
+xbuild/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/MonomeXXhDevice.o
+x/Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.cc
+xnormal
+xppc
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.cc: In member function 'void MonomeXXhDevice::oscLedStateChangeEvent(unsigned int, unsigned int, bool)':
+o/Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.cc:579: error: 'kDeviceType_mk_type' was not declared in this scope
+lSLF07#2@65"Compile /Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.cc301811211#301811212#0(283"/Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.cc: In member function 'void MonomeXXhDevice::oscLedStateChangeEvent(unsigned int, unsigned int, bool)':/Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.cc:579: error: 'kDeviceType_mk_type' was not declared in this scope1(4@52"'kDeviceType_mk_type' was not declared in this scope301811212#160#123#0(6@57"/Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.cc301811205#579#0#579#0#34"'*' was not declared in this scope0(0#0#57"/Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.cc4300885448#1146"    cd /Users/kevin/sandbox/monome-serial/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/MonomeSerial.hmap" "-F/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5" -F/Users/kevin/sandbox/monome-serial/osx "-I/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/include" -I../../src/monomeserial -I/usr/local/include "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources/ppc" "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources" -Wno-deprecated -c /Users/kevin/sandbox/monome-serial/osx/MonomeXXhDevice.cc -o "/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/MonomeXXhDevice.o"1#
+
+CCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/OscAtom.o" /Users/kevin/sandbox/monome-serial/osx/OscAtom.cc normal ppc c++ com.apple.compilers.gcc.4_2
+s301811212.426427
+e301811212.868849
+r1
+xCompileC
+xbuild/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/OscAtom.o
+x/Users/kevin/sandbox/monome-serial/osx/OscAtom.cc
+xnormal
+xppc
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/kevin/sandbox/monome-serial/osx/OscAtom.cc301811212#301811212#0(0"0(0#0#49"/Users/kevin/sandbox/monome-serial/osx/OscAtom.cc7310236533803413504#1130"    cd /Users/kevin/sandbox/monome-serial/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/MonomeSerial.hmap" "-F/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5" -F/Users/kevin/sandbox/monome-serial/osx "-I/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/include" -I../../src/monomeserial -I/usr/local/include "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources/ppc" "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources" -Wno-deprecated -c /Users/kevin/sandbox/monome-serial/osx/OscAtom.cc -o "/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/OscAtom.o"0#
+
+CCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/OscContext.o" /Users/kevin/sandbox/monome-serial/osx/OscContext.cc normal ppc c++ com.apple.compilers.gcc.4_2
+s301811212.868960
+e301811213.902278
+r1
+xCompileC
+xbuild/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/OscContext.o
+x/Users/kevin/sandbox/monome-serial/osx/OscContext.cc
+xnormal
+xppc
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/kevin/sandbox/monome-serial/osx/OscContext.cc301811212#301811213#0(0"0(0#0#52"/Users/kevin/sandbox/monome-serial/osx/OscContext.cc4300885448#1136"    cd /Users/kevin/sandbox/monome-serial/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/MonomeSerial.hmap" "-F/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5" -F/Users/kevin/sandbox/monome-serial/osx "-I/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/include" -I../../src/monomeserial -I/usr/local/include "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources/ppc" "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources" -Wno-deprecated -c /Users/kevin/sandbox/monome-serial/osx/OscContext.cc -o "/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/OscContext.o"0#
+
+CCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/OscController.o" /Users/kevin/sandbox/monome-serial/osx/OscController.cc normal ppc c++ com.apple.compilers.gcc.4_2
+s301811213.178480
+e301811214.697826
+r1
+xCompileC
+xbuild/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/OscController.o
+x/Users/kevin/sandbox/monome-serial/osx/OscController.cc
+xnormal
+xppc
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/kevin/sandbox/monome-serial/osx/OscController.cc301811213#301811214#0(0"0(0#0#55"/Users/kevin/sandbox/monome-serial/osx/OscController.cc4300885448#1142"    cd /Users/kevin/sandbox/monome-serial/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/MonomeSerial.hmap" "-F/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5" -F/Users/kevin/sandbox/monome-serial/osx "-I/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/include" -I../../src/monomeserial -I/usr/local/include "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources/ppc" "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources" -Wno-deprecated -c /Users/kevin/sandbox/monome-serial/osx/OscController.cc -o "/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/OscController.o"0#
+
+CCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/OscException.o" /Users/kevin/sandbox/monome-serial/osx/OscException.cc normal ppc c++ com.apple.compilers.gcc.4_2
+s301811213.902386
+e301811213.956650
+r1
+xCompileC
+xbuild/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/OscException.o
+x/Users/kevin/sandbox/monome-serial/osx/OscException.cc
+xnormal
+xppc
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/kevin/sandbox/monome-serial/osx/OscException.cc301811213#301811213#0(0"0(0#0#54"/Users/kevin/sandbox/monome-serial/osx/OscException.cc4300885448#1140"    cd /Users/kevin/sandbox/monome-serial/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/MonomeSerial.hmap" "-F/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5" -F/Users/kevin/sandbox/monome-serial/osx "-I/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/include" -I../../src/monomeserial -I/usr/local/include "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources/ppc" "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources" -Wno-deprecated -c /Users/kevin/sandbox/monome-serial/osx/OscException.cc -o "/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/OscException.o"0#
+
+CCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/OscHostAddress.o" /Users/kevin/sandbox/monome-serial/osx/OscHostAddress.cc normal ppc c++ com.apple.compilers.gcc.4_2
+s301811213.956832
+e301811214.381290
+r1
+xCompileC
+xbuild/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/OscHostAddress.o
+x/Users/kevin/sandbox/monome-serial/osx/OscHostAddress.cc
+xnormal
+xppc
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/kevin/sandbox/monome-serial/osx/OscHostAddress.cc301811213#301811214#0(0"0(0#0#56"/Users/kevin/sandbox/monome-serial/osx/OscHostAddress.cc4300885448#1144"    cd /Users/kevin/sandbox/monome-serial/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/MonomeSerial.hmap" "-F/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5" -F/Users/kevin/sandbox/monome-serial/osx "-I/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/include" -I../../src/monomeserial -I/usr/local/include "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources/ppc" "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources" -Wno-deprecated -c /Users/kevin/sandbox/monome-serial/osx/OscHostAddress.cc -o "/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/OscHostAddress.o"0#
+
+CCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/SerialDevice.o" /Users/kevin/sandbox/monome-serial/osx/SerialDevice.cc normal ppc c++ com.apple.compilers.gcc.4_2
+s301811214.381400
+e301811215.081436
+r1
+xCompileC
+xbuild/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/SerialDevice.o
+x/Users/kevin/sandbox/monome-serial/osx/SerialDevice.cc
+xnormal
+xppc
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/kevin/sandbox/monome-serial/osx/SerialDevice.cc301811214#301811215#0(0"0(0#0#54"/Users/kevin/sandbox/monome-serial/osx/SerialDevice.cc4300885448#1140"    cd /Users/kevin/sandbox/monome-serial/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/MonomeSerial.hmap" "-F/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5" -F/Users/kevin/sandbox/monome-serial/osx "-I/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/include" -I../../src/monomeserial -I/usr/local/include "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources/ppc" "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources" -Wno-deprecated -c /Users/kevin/sandbox/monome-serial/osx/SerialDevice.cc -o "/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/SerialDevice.o"0#
+
+CCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/SerialDeviceNotifications.o" /Users/kevin/sandbox/monome-serial/osx/SerialDeviceNotifications.c normal ppc c com.apple.compilers.gcc.4_2
+s301811214.697939
+e301811214.937971
+r1
+xCompileC
+xbuild/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/SerialDeviceNotifications.o
+x/Users/kevin/sandbox/monome-serial/osx/SerialDeviceNotifications.c
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/kevin/sandbox/monome-serial/osx/SerialDeviceNotifications.c301811214#301811214#0(0"0(0#0#66"/Users/kevin/sandbox/monome-serial/osx/SerialDeviceNotifications.c4300885448#1119"    cd /Users/kevin/sandbox/monome-serial/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/MonomeSerial.hmap" "-F/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5" -F/Users/kevin/sandbox/monome-serial/osx "-I/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/include" -I../../src/monomeserial -I/usr/local/include "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources/ppc" "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources" -c /Users/kevin/sandbox/monome-serial/osx/SerialDeviceNotifications.c -o "/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/SerialDeviceNotifications.o"0#
+
+CCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/main.o" /Users/kevin/sandbox/monome-serial/osx/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s301811205.789025
+e301811207.319691
+r1
+xCompileC
+xbuild/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/main.o
+x/Users/kevin/sandbox/monome-serial/osx/main.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/kevin/sandbox/monome-serial/osx/main.m301811205#301811207#0(0"0(0#0#45"/Users/kevin/sandbox/monome-serial/osx/main.m4300885448#1087"    cd /Users/kevin/sandbox/monome-serial/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/MonomeSerial.hmap" "-F/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5" -F/Users/kevin/sandbox/monome-serial/osx "-I/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/include" -I../../src/monomeserial -I/usr/local/include "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources/ppc" "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources" -c /Users/kevin/sandbox/monome-serial/osx/main.m -o "/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/main.o"0#
+
+CCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/message.o" /Users/kevin/sandbox/monome-serial/osx/message.c normal ppc c com.apple.compilers.gcc.4_2
+s301811210.366661
+e301811210.528857
+r1
+xCompileC
+xbuild/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/message.o
+x/Users/kevin/sandbox/monome-serial/osx/message.c
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/kevin/sandbox/monome-serial/osx/message.c301811210#301811210#0(0"0(0#0#48"/Users/kevin/sandbox/monome-serial/osx/message.c4300885448#1083"    cd /Users/kevin/sandbox/monome-serial/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/MonomeSerial.hmap" "-F/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5" -F/Users/kevin/sandbox/monome-serial/osx "-I/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/include" -I../../src/monomeserial -I/usr/local/include "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources/ppc" "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources" -c /Users/kevin/sandbox/monome-serial/osx/message.c -o "/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/message.o"0#
+
+CCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/message256.o" /Users/kevin/sandbox/monome-serial/osx/message256.c normal ppc c com.apple.compilers.gcc.4_2
+s301811214.938081
+e301811215.006062
+r1
+xCompileC
+xbuild/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/message256.o
+x/Users/kevin/sandbox/monome-serial/osx/message256.c
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/kevin/sandbox/monome-serial/osx/message256.c301811214#301811215#0(0"0(0#0#51"/Users/kevin/sandbox/monome-serial/osx/message256.c4300885448#1089"    cd /Users/kevin/sandbox/monome-serial/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/MonomeSerial.hmap" "-F/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5" -F/Users/kevin/sandbox/monome-serial/osx "-I/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/include" -I../../src/monomeserial -I/usr/local/include "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources/ppc" "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources" -c /Users/kevin/sandbox/monome-serial/osx/message256.c -o "/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/message256.o"0#
+
+CCompileC "build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/messageMK.o" /Users/kevin/sandbox/monome-serial/osx/messageMK.c normal ppc c com.apple.compilers.gcc.4_2
+s301811215.006169
+e301811215.132470
+r1
+xCompileC
+xbuild/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/messageMK.o
+x/Users/kevin/sandbox/monome-serial/osx/messageMK.c
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/kevin/sandbox/monome-serial/osx/messageMK.c301811215#301811215#0(0"0(0#0#50"/Users/kevin/sandbox/monome-serial/osx/messageMK.c4300885448#1087"    cd /Users/kevin/sandbox/monome-serial/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/MonomeSerial.hmap" "-F/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5" -F/Users/kevin/sandbox/monome-serial/osx "-I/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/include" -I../../src/monomeserial -I/usr/local/include "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources/ppc" "-I/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/DerivedSources" -c /Users/kevin/sandbox/monome-serial/osx/messageMK.c -o "/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/messageMK.o"0#
+
+CCopyStringsFile "/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/MonomeSerial.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+s301811205.509423
+e301811205.732970
+r1
+xCopyStringsFile
+x/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/MonomeSerial.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings301811205#301811205#0(0"0(0#0#70"/Users/kevin/sandbox/monome-serial/osx/English.lproj/InfoPlist.strings8029477562943352832#380"    cd /Users/kevin/sandbox/monome-serial/osx    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir "/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/MonomeSerial.app/Contents/Resources/English.lproj"0#
+
+CCpResource "build/Release 10.5/MonomeSerial.app/Contents/Resources/gplheader.txt" gplheader.txt
+s301811205.741418
+e301811205.757174
+r1
+xCpResource
+xbuild/Release 10.5/MonomeSerial.app/Contents/Resources/gplheader.txt
+xgplheader.txt
+lSLF07#2@18"Copy gplheader.txt301811205#301811205#0(0"0(0#0#52"/Users/kevin/sandbox/monome-serial/osx/gplheader.txt4300885448#364"    cd /Users/kevin/sandbox/monome-serial/osx    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/kevin/sandbox/monome-serial/osx/gplheader.txt "/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/MonomeSerial.app/Contents/Resources"0#
+
+CCpResource "build/Release 10.5/MonomeSerial.app/Contents/Resources/monome-serial.icns" monome-serial.icns
+s301811205.733062
+e301811205.752401
+r1
+xCpResource
+xbuild/Release 10.5/MonomeSerial.app/Contents/Resources/monome-serial.icns
+xmonome-serial.icns
+lSLF07#2@23"Copy monome-serial.icns301811205#301811205#0(0"0(0#0#57"/Users/kevin/sandbox/monome-serial/osx/monome-serial.icns32088649863463028#369"    cd /Users/kevin/sandbox/monome-serial/osx    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/kevin/sandbox/monome-serial/osx/monome-serial.icns "/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/MonomeSerial.app/Contents/Resources"0#
+
+CCreateUniversalBinary "/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/MonomeSerial.app/Contents/MacOS/MonomeSerial" normal "ppc i386"
+r0
+
+CLd "/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/i386/MonomeSerial" normal i386
+r0
+
+CLd "/Users/kevin/sandbox/monome-serial/osx/build/MonomeSerial.build/Release 10.5/MonomeSerial.build/Objects-normal/ppc/MonomeSerial" normal ppc
+r0
+
+CPBXCp "build/Release 10.5/MonomeSerial.app/Contents/Frameworks/Lo.framework" Lo.framework
+s301811225.645055
+e301811225.666796
+r1
+xPBXCp
+xbuild/Release 10.5/MonomeSerial.app/Contents/Frameworks/Lo.framework
+xLo.framework
+lSLF07#2@17"Copy Lo.framework301811225#301811225#0(0"0(0#0#51"/Users/kevin/sandbox/monome-serial/osx/Lo.framework4300885448#364"    cd /Users/kevin/sandbox/monome-serial/osx    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/kevin/sandbox/monome-serial/osx/Lo.framework "/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/MonomeSerial.app/Contents/Frameworks"0#
+
+CProcessInfoPlistFile "/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/MonomeSerial.app/Contents/Info.plist" Info.plist
+s301811205.493517
+e301811205.509304
+r1
+xProcessInfoPlistFile
+x/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/MonomeSerial.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist301811205#301811205#0(0"0(0#0#49"/Users/kevin/sandbox/monome-serial/osx/Info.plist8458375244534460416#330"    cd /Users/kevin/sandbox/monome-serial/osx    builtin-infoPlistUtility Info.plist -genpkginfo "/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/MonomeSerial.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/MonomeSerial.app/Contents/Info.plist"0#
+
+CStripNIB /Users/kevin/sandbox/monome-serial/osx/English.lproj/MainMenu.nib
+s301811205.512946
+e301811205.788914
+r1
+xStripNIB
+x/Users/kevin/sandbox/monome-serial/osx/English.lproj/MainMenu.nib
+lSLF07#2@35"StripNIB English.lproj/MainMenu.nib301811205#301811205#0(0"0(0#0#65"/Users/kevin/sandbox/monome-serial/osx/English.lproj/MainMenu.nib4300885448#309"    cd /Users/kevin/sandbox/monome-serial/osx    /Developer/usr/bin/ibtool --strip "/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/MonomeSerial.app/Contents/Resources/English.lproj/MainMenu.nib" --output-format human-readable-text /Users/kevin/sandbox/monome-serial/osx/English.lproj/MainMenu.nib0#
+
+CTouch "/Users/kevin/sandbox/monome-serial/osx/build/Release 10.5/MonomeSerial.app"
+r0
+
