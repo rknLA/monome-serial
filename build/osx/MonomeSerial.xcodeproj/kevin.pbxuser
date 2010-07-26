@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	0A205AED11FD22D500B33A71 /* MonomeXXhDevice.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {655, 2821}}";
+			sepNavSelRange = "{1060, 0}";
+			sepNavVisRange = "{1060, 116}";
+		};
+	};
+	0A205AF311FD22D500B33A71 /* AppController.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1027, 8008}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 969}";
+		};
+	};
+	0A205AF411FD22D500B33A71 /* ApplicationController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {838, 1937}}";
+			sepNavSelRange = "{995, 0}";
+			sepNavVisRange = "{0, 2188}";
+			sepNavWindowFrame = "{{19, 17}, {807, 856}}";
+		};
+	};
+	0A205B5E11FD256500B33A71 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'iquadrant' defined but not used";
+		fRef = 0A205AED11FD22D500B33A71 /* MonomeXXhDevice.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 29;
+		rType = 1;
+	};
+	0A205B6011FD256500B33A71 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0A205AED11FD22D500B33A71 /* MonomeXXhDevice.h */;
+		name = "MonomeXXhDevice.h: 30";
+		rLen = 0;
+		rLoc = 1060;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	0AB366D011FB711400752628 /* ApplicationController.mm:1824 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0A205AF511FD22D500B33A71 /* ApplicationController.mm */;
+		functionName = "ApplicationController::_typeCheckOscAtoms(list<OscAtom *>& atoms, const char *typetags)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1824;
+		location = MonomeSerial;
+		modificationTime = 301693724.572494;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	0AB366D211FB711400752628 /* ApplicationController.mm:672 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0A205AF511FD22D500B33A71 /* ApplicationController.mm */;
+		functionName = "ApplicationController::handleOscMessage(const string& addressPattern, list <OscAtom *> *atoms)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 672;
+		location = MonomeSerial;
+		modificationTime = 301693724.573051;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	0AB366D411FB711600752628 /* ApplicationController.mm:126 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0A205AF511FD22D500B33A71 /* ApplicationController.mm */;
+		functionName = "ApplicationController::handleSerialDeviceDiscoveredEvent(const char *bsdFilePath)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 126;
+		location = MonomeSerial;
+		modificationTime = 301693724.5731701;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	0AB366D611FB711600752628 /* ApplicationController.mm:58 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0A205AF511FD22D500B33A71 /* ApplicationController.mm */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 58;
+		location = MonomeSerial;
+		modificationTime = 301693724.573262;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	0AB3670411FB788300752628 /* MonomeXXhDevice.cc:1295 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0A205AEC11FD22D500B33A71 /* MonomeXXhDevice.cc */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1295;
+		location = MonomeSerial;
+		modificationTime = 301693724.573348;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	0AB3670611FB788300752628 /* MonomeXXhDevice.cc:1054 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0A205AEC11FD22D500B33A71 /* MonomeXXhDevice.cc */;
+		functionName = "MonomeXXhDevice::oscLedFrameEvent(unsigned int column, unsigned int row, unsigned int bitMaps[8])";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1054;
+		location = MonomeSerial;
+		modificationTime = 301693724.573366;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	0ABF996F0E087DBC00419BD1 /* ApplicationController.mm:1159 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0A205AF511FD22D500B33A71 /* ApplicationController.mm */;
+		functionName = "ApplicationController::_handleOscSystemMessage(const string& addressPattern, list <OscAtom *> *atoms)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1159;
+		modificationTime = 301693724.571507;
+		originalNumberOfMultipleMatches = 0;
+		state = 2;
+	};
+	0ADDD38A0DF39A5700934657 /* MonomeSerial */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = MonomeSerial;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	0ADDD3990DF39A6B00934657 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				../.. = "";
+			};
+		};
+	};
+	0ADDD39A0DF39A6B00934657 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeArchitecturePreference = i386;
+		activeBuildConfigurationName = "Release 10.5";
+		activeExecutable = 0ADDD38A0DF39A5700934657 /* MonomeSerial */;
+		activeTarget = 8D1107260486CEB800E47090 /* MonomeSerial */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* MonomeSerial */,
+		);
+		breakpoints = (
+			0ABF996F0E087DBC00419BD1 /* ApplicationController.mm:1159 */,
+			0AB366D011FB711400752628 /* ApplicationController.mm:1824 */,
+			0AB366D211FB711400752628 /* ApplicationController.mm:672 */,
+			0AB366D411FB711600752628 /* ApplicationController.mm:126 */,
+			0AB366D611FB711600752628 /* ApplicationController.mm:58 */,
+			0AB3670411FB788300752628 /* MonomeXXhDevice.cc:1295 */,
+			0AB3670611FB788300752628 /* MonomeXXhDevice.cc:1054 */,
+		);
+		codeSenseManager = 0ADDD39A0DF39A6B00934657 /* Code sense */;
+		executables = (
+			0ADDD38A0DF39A5700934657 /* MonomeSerial */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					524,
+					199.20849609375,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					421,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					405,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFindDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					419,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFindDataSource_MessageID,
+					PBXFindDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					599,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_SCM_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					583,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 301802800;
+			PBXWorkspaceStateSaveDate = 301802800;
+		};
+		perUserProjectItems = {
+			0A205B5E11FD256500B33A71 /* XCBuildMessageTextBookmark */ = 0A205B5E11FD256500B33A71 /* XCBuildMessageTextBookmark */;
+			0A205B6011FD256500B33A71 /* PBXTextBookmark */ = 0A205B6011FD256500B33A71 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 0ADDD3990DF39A6B00934657 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* MonomeSerial */ = {
+		activeExec = 0;
+		executables = (
+			0ADDD38A0DF39A5700934657 /* MonomeSerial */,
+		);
+	};
+	8D1107310486CEB800E47090 /* Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {885, 693}}";
+			sepNavSelRange = "{715, 0}";
+			sepNavVisRange = "{0, 988}";
+			sepNavWindowFrame = "{{42, 31}, {944, 821}}";
+		};
+	};
+}

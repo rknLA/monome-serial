@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A205B0511FD22D500B33A71 /* message.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A205AE411FD22D500B33A71 /* message.c */; };
+		0A205B0611FD22D500B33A71 /* message256.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A205AE611FD22D500B33A71 /* message256.c */; };
+		0A205B0711FD22D500B33A71 /* messageMK.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A205AE811FD22D500B33A71 /* messageMK.c */; };
+		0A205B0811FD22D500B33A71 /* MonomeDeviceDefaults.cc in Sources */ = {isa = PBXBuildFile; fileRef = 0A205AEA11FD22D500B33A71 /* MonomeDeviceDefaults.cc */; };
+		0A205B0911FD22D500B33A71 /* MonomeXXhDevice.cc in Sources */ = {isa = PBXBuildFile; fileRef = 0A205AEC11FD22D500B33A71 /* MonomeXXhDevice.cc */; };
+		0A205B0A11FD22D500B33A71 /* CCoreMIDI.cc in Sources */ = {isa = PBXBuildFile; fileRef = 0A205AEF11FD22D500B33A71 /* CCoreMIDI.cc */; };
+		0A205B0B11FD22D500B33A71 /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0A205AF311FD22D500B33A71 /* AppController.mm */; };
+		0A205B0C11FD22D500B33A71 /* ApplicationController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0A205AF511FD22D500B33A71 /* ApplicationController.mm */; };
+		0A205B0D11FD22D500B33A71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A205AF611FD22D500B33A71 /* main.m */; };
+		0A205B0E11FD22D500B33A71 /* MonomeSerialDefaults.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0A205AF911FD22D500B33A71 /* MonomeSerialDefaults.mm */; };
+		0A205B0F11FD22D500B33A71 /* AsynchronousSerialDeviceReader.cc in Sources */ = {isa = PBXBuildFile; fileRef = 0A205AFB11FD22D500B33A71 /* AsynchronousSerialDeviceReader.cc */; };
+		0A205B1011FD22D500B33A71 /* SerialDevice.cc in Sources */ = {isa = PBXBuildFile; fileRef = 0A205AFD11FD22D500B33A71 /* SerialDevice.cc */; };
+		0A205B1111FD22D500B33A71 /* SerialDeviceNotifications.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A205AFF11FD22D500B33A71 /* SerialDeviceNotifications.c */; };
+		0A205B5411FD254200B33A71 /* OscAtom.cc in Sources */ = {isa = PBXBuildFile; fileRef = 0A205B4A11FD254200B33A71 /* OscAtom.cc */; };
+		0A205B5511FD254200B33A71 /* OscContext.cc in Sources */ = {isa = PBXBuildFile; fileRef = 0A205B4C11FD254200B33A71 /* OscContext.cc */; };
+		0A205B5611FD254200B33A71 /* OscController.cc in Sources */ = {isa = PBXBuildFile; fileRef = 0A205B4E11FD254200B33A71 /* OscController.cc */; };
+		0A205B5711FD254200B33A71 /* OscException.cc in Sources */ = {isa = PBXBuildFile; fileRef = 0A205B5011FD254200B33A71 /* OscException.cc */; };
+		0A205B5811FD254200B33A71 /* OscHostAddress.cc in Sources */ = {isa = PBXBuildFile; fileRef = 0A205B5211FD254200B33A71 /* OscHostAddress.cc */; };
+		0A2EE85D0E0CA73900B6AD4B /* Lo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A2EE85C0E0CA73900B6AD4B /* Lo.framework */; };
+		0A2EE8650E0CA75900B6AD4B /* Lo.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0A2EE85C0E0CA73900B6AD4B /* Lo.framework */; };
+		210D32540BD01F9B00F60D2A /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 210D32520BD01F9B00F60D2A /* MainMenu.nib */; };
+		210D32B90BD144FE00F60D2A /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 210D32B80BD144FE00F60D2A /* IOKit.framework */; };
+		217B08020BF697B700A617C9 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 217B08010BF697B700A617C9 /* CoreMIDI.framework */; };
+		21F3D4EA0C18B2770047EDEB /* monome-serial.icns in Resources */ = {isa = PBXBuildFile; fileRef = 21F3D4E90C18B2770047EDEB /* monome-serial.icns */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0A2EE8640E0CA74A00B6AD4B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0A2EE8650E0CA75900B6AD4B /* Lo.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A205AE411FD22D500B33A71 /* message.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = message.c; sourceTree = "<group>"; };
+		0A205AE511FD22D500B33A71 /* message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = message.h; sourceTree = "<group>"; };
+		0A205AE611FD22D500B33A71 /* message256.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = message256.c; sourceTree = "<group>"; };
+		0A205AE711FD22D500B33A71 /* message256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = message256.h; sourceTree = "<group>"; };
+		0A205AE811FD22D500B33A71 /* messageMK.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = messageMK.c; sourceTree = "<group>"; };
+		0A205AE911FD22D500B33A71 /* messageMK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = messageMK.h; sourceTree = "<group>"; };
+		0A205AEA11FD22D500B33A71 /* MonomeDeviceDefaults.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MonomeDeviceDefaults.cc; sourceTree = "<group>"; };
+		0A205AEB11FD22D500B33A71 /* MonomeDeviceDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonomeDeviceDefaults.h; sourceTree = "<group>"; };
+		0A205AEC11FD22D500B33A71 /* MonomeXXhDevice.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MonomeXXhDevice.cc; sourceTree = "<group>"; };
+		0A205AED11FD22D500B33A71 /* MonomeXXhDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonomeXXhDevice.h; sourceTree = "<group>"; };
+		0A205AEF11FD22D500B33A71 /* CCoreMIDI.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCoreMIDI.cc; sourceTree = "<group>"; };
+		0A205AF011FD22D500B33A71 /* CCoreMIDI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCoreMIDI.h; sourceTree = "<group>"; };
+		0A205AF211FD22D500B33A71 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		0A205AF311FD22D500B33A71 /* AppController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppController.mm; sourceTree = "<group>"; };
+		0A205AF411FD22D500B33A71 /* ApplicationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationController.h; sourceTree = "<group>"; };
+		0A205AF511FD22D500B33A71 /* ApplicationController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ApplicationController.mm; sourceTree = "<group>"; };
+		0A205AF611FD22D500B33A71 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A205AF711FD22D500B33A71 /* MonomeSerial_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonomeSerial_Prefix.pch; sourceTree = "<group>"; };
+		0A205AF811FD22D500B33A71 /* MonomeSerialDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonomeSerialDefaults.h; sourceTree = "<group>"; };
+		0A205AF911FD22D500B33A71 /* MonomeSerialDefaults.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MonomeSerialDefaults.mm; sourceTree = "<group>"; };
+		0A205AFB11FD22D500B33A71 /* AsynchronousSerialDeviceReader.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AsynchronousSerialDeviceReader.cc; sourceTree = "<group>"; };
+		0A205AFC11FD22D500B33A71 /* AsynchronousSerialDeviceReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsynchronousSerialDeviceReader.h; sourceTree = "<group>"; };
+		0A205AFD11FD22D500B33A71 /* SerialDevice.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SerialDevice.cc; sourceTree = "<group>"; };
+		0A205AFE11FD22D500B33A71 /* SerialDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerialDevice.h; sourceTree = "<group>"; };
+		0A205AFF11FD22D500B33A71 /* SerialDeviceNotifications.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SerialDeviceNotifications.c; sourceTree = "<group>"; };
+		0A205B0011FD22D500B33A71 /* SerialDeviceNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerialDeviceNotifications.h; sourceTree = "<group>"; };
+		0A205B0311FD22D500B33A71 /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		0A205B4911FD254200B33A71 /* osc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = osc.h; sourceTree = "<group>"; };
+		0A205B4A11FD254200B33A71 /* OscAtom.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OscAtom.cc; sourceTree = "<group>"; };
+		0A205B4B11FD254200B33A71 /* OscAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OscAtom.h; sourceTree = "<group>"; };
+		0A205B4C11FD254200B33A71 /* OscContext.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OscContext.cc; sourceTree = "<group>"; };
+		0A205B4D11FD254200B33A71 /* OscContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OscContext.h; sourceTree = "<group>"; };
+		0A205B4E11FD254200B33A71 /* OscController.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OscController.cc; sourceTree = "<group>"; };
+		0A205B4F11FD254200B33A71 /* OscController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OscController.h; sourceTree = "<group>"; };
+		0A205B5011FD254200B33A71 /* OscException.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OscException.cc; sourceTree = "<group>"; };
+		0A205B5111FD254200B33A71 /* OscException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OscException.h; sourceTree = "<group>"; };
+		0A205B5211FD254200B33A71 /* OscHostAddress.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OscHostAddress.cc; sourceTree = "<group>"; };
+		0A205B5311FD254200B33A71 /* OscHostAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OscHostAddress.h; sourceTree = "<group>"; };
+		0A2EE85C0E0CA73900B6AD4B /* Lo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Lo.framework; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		210D32530BD01F9B00F60D2A /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		210D32B80BD144FE00F60D2A /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		217B08010BF697B700A617C9 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = /System/Library/Frameworks/CoreMIDI.framework; sourceTree = "<absolute>"; };
+		21F3D4E90C18B2770047EDEB /* monome-serial.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "monome-serial.icns"; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* MonomeSerial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonomeSerial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				210D32B90BD144FE00F60D2A /* IOKit.framework in Frameworks */,
+				217B08020BF697B700A617C9 /* CoreMIDI.framework in Frameworks */,
+				0A2EE85D0E0CA73900B6AD4B /* Lo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A205AE211FD22D500B33A71 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				0A205B4811FD254200B33A71 /* osc */,
+				0A205AE311FD22D500B33A71 /* devices */,
+				0A205AEE11FD22D500B33A71 /* midi */,
+				0A205AF111FD22D500B33A71 /* osx */,
+				0A205AFA11FD22D500B33A71 /* serial */,
+				0A205B0111FD22D500B33A71 /* shared */,
+				0A205B0211FD22D500B33A71 /* tinyxml */,
+				0A205B0311FD22D500B33A71 /* types.h */,
+				0A205B0411FD22D500B33A71 /* untitled folder */,
+			);
+			name = src;
+			path = ../../src;
+			sourceTree = SOURCE_ROOT;
+		};
+		0A205AE311FD22D500B33A71 /* devices */ = {
+			isa = PBXGroup;
+			children = (
+				0A205AE411FD22D500B33A71 /* message.c */,
+				0A205AE511FD22D500B33A71 /* message.h */,
+				0A205AE611FD22D500B33A71 /* message256.c */,
+				0A205AE711FD22D500B33A71 /* message256.h */,
+				0A205AE811FD22D500B33A71 /* messageMK.c */,
+				0A205AE911FD22D500B33A71 /* messageMK.h */,
+				0A205AEA11FD22D500B33A71 /* MonomeDeviceDefaults.cc */,
+				0A205AEB11FD22D500B33A71 /* MonomeDeviceDefaults.h */,
+				0A205AEC11FD22D500B33A71 /* MonomeXXhDevice.cc */,
+				0A205AED11FD22D500B33A71 /* MonomeXXhDevice.h */,
+			);
+			path = devices;
+			sourceTree = "<group>";
+		};
+		0A205AEE11FD22D500B33A71 /* midi */ = {
+			isa = PBXGroup;
+			children = (
+				0A205AEF11FD22D500B33A71 /* CCoreMIDI.cc */,
+				0A205AF011FD22D500B33A71 /* CCoreMIDI.h */,
+			);
+			path = midi;
+			sourceTree = "<group>";
+		};
+		0A205AF111FD22D500B33A71 /* osx */ = {
+			isa = PBXGroup;
+			children = (
+				0A205AF211FD22D500B33A71 /* AppController.h */,
+				0A205AF311FD22D500B33A71 /* AppController.mm */,
+				0A205AF411FD22D500B33A71 /* ApplicationController.h */,
+				0A205AF511FD22D500B33A71 /* ApplicationController.mm */,
+				0A205AF611FD22D500B33A71 /* main.m */,
+				0A205AF711FD22D500B33A71 /* MonomeSerial_Prefix.pch */,
+				0A205AF811FD22D500B33A71 /* MonomeSerialDefaults.h */,
+				0A205AF911FD22D500B33A71 /* MonomeSerialDefaults.mm */,
+			);
+			path = osx;
+			sourceTree = "<group>";
+		};
+		0A205AFA11FD22D500B33A71 /* serial */ = {
+			isa = PBXGroup;
+			children = (
+				0A205AFB11FD22D500B33A71 /* AsynchronousSerialDeviceReader.cc */,
+				0A205AFC11FD22D500B33A71 /* AsynchronousSerialDeviceReader.h */,
+				0A205AFD11FD22D500B33A71 /* SerialDevice.cc */,
+				0A205AFE11FD22D500B33A71 /* SerialDevice.h */,
+				0A205AFF11FD22D500B33A71 /* SerialDeviceNotifications.c */,
+				0A205B0011FD22D500B33A71 /* SerialDeviceNotifications.h */,
+			);
+			path = serial;
+			sourceTree = "<group>";
+		};
+		0A205B0111FD22D500B33A71 /* shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = shared;
+			sourceTree = "<group>";
+		};
+		0A205B0211FD22D500B33A71 /* tinyxml */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = tinyxml;
+			sourceTree = "<group>";
+		};
+		0A205B0411FD22D500B33A71 /* untitled folder */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "untitled folder";
+			sourceTree = "<group>";
+		};
+		0A205B4811FD254200B33A71 /* osc */ = {
+			isa = PBXGroup;
+			children = (
+				0A205B4911FD254200B33A71 /* osc.h */,
+				0A205B4A11FD254200B33A71 /* OscAtom.cc */,
+				0A205B4B11FD254200B33A71 /* OscAtom.h */,
+				0A205B4C11FD254200B33A71 /* OscContext.cc */,
+				0A205B4D11FD254200B33A71 /* OscContext.h */,
+				0A205B4E11FD254200B33A71 /* OscController.cc */,
+				0A205B4F11FD254200B33A71 /* OscController.h */,
+				0A205B5011FD254200B33A71 /* OscException.cc */,
+				0A205B5111FD254200B33A71 /* OscException.h */,
+				0A205B5211FD254200B33A71 /* OscHostAddress.cc */,
+				0A205B5311FD254200B33A71 /* OscHostAddress.h */,
+			);
+			path = osc;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* MonomeSerial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* MonomeSerial */ = {
+			isa = PBXGroup;
+			children = (
+				0A205AE211FD22D500B33A71 /* src */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				210D32520BD01F9B00F60D2A /* MainMenu.nib */,
+			);
+			name = MonomeSerial;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				21F3D4E90C18B2770047EDEB /* monome-serial.icns */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				217B08010BF697B700A617C9 /* CoreMIDI.framework */,
+				0A2EE85C0E0CA73900B6AD4B /* Lo.framework */,
+				210D32B80BD144FE00F60D2A /* IOKit.framework */,
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* MonomeSerial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "MonomeSerial" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				0A2EE8640E0CA74A00B6AD4B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonomeSerial;
+			productInstallPath = "$(HOME)/Applications";
+			productName = MonomeSerial;
+			productReference = 8D1107320486CEB800E47090 /* MonomeSerial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MonomeSerial" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* MonomeSerial */;
+			projectDirPath = "";
+			projectRoot = ../..;
+			targets = (
+				8D1107260486CEB800E47090 /* MonomeSerial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				210D32540BD01F9B00F60D2A /* MainMenu.nib in Resources */,
+				21F3D4EA0C18B2770047EDEB /* monome-serial.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A205B0511FD22D500B33A71 /* message.c in Sources */,
+				0A205B0611FD22D500B33A71 /* message256.c in Sources */,
+				0A205B0711FD22D500B33A71 /* messageMK.c in Sources */,
+				0A205B0811FD22D500B33A71 /* MonomeDeviceDefaults.cc in Sources */,
+				0A205B0911FD22D500B33A71 /* MonomeXXhDevice.cc in Sources */,
+				0A205B0A11FD22D500B33A71 /* CCoreMIDI.cc in Sources */,
+				0A205B0B11FD22D500B33A71 /* AppController.mm in Sources */,
+				0A205B0C11FD22D500B33A71 /* ApplicationController.mm in Sources */,
+				0A205B0D11FD22D500B33A71 /* main.m in Sources */,
+				0A205B0E11FD22D500B33A71 /* MonomeSerialDefaults.mm in Sources */,
+				0A205B0F11FD22D500B33A71 /* AsynchronousSerialDeviceReader.cc in Sources */,
+				0A205B1011FD22D500B33A71 /* SerialDevice.cc in Sources */,
+				0A205B1111FD22D500B33A71 /* SerialDeviceNotifications.c in Sources */,
+				0A205B5411FD254200B33A71 /* OscAtom.cc in Sources */,
+				0A205B5511FD254200B33A71 /* OscContext.cc in Sources */,
+				0A205B5611FD254200B33A71 /* OscController.cc in Sources */,
+				0A205B5711FD254200B33A71 /* OscException.cc in Sources */,
+				0A205B5811FD254200B33A71 /* OscHostAddress.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		210D32520BD01F9B00F60D2A /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				210D32530BD01F9B00F60D2A /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A05171C11FBC8F900D89504 /* Debug 10.5 */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "../../src/**";
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+			};
+			name = "Debug 10.5";
+		};
+		0A05171D11FBC8F900D89504 /* Debug 10.5 */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG_PRINT;
+				HEADER_SEARCH_PATHS = (
+					../../src/monomeserial,
+					/usr/local/include,
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = "-Wno-deprecated";
+				PRODUCT_NAME = MonomeSerial;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = "Debug 10.5";
+		};
+		0A05171E11FBC90000D89504 /* Release 10.5 */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "../../src/**";
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+			};
+			name = "Release 10.5";
+		};
+		0A05171F11FBC90000D89504 /* Release 10.5 */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				HEADER_SEARCH_PATHS = (
+					../../src/monomeserial,
+					/usr/local/include,
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = "-Wno-deprecated";
+				PRODUCT_NAME = MonomeSerial;
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Release 10.5";
+		};
+		0ADB47E111F82DE900144A81 /* Debug 10.6 */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "../../src/**";
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
+			};
+			name = "Debug 10.6";
+		};
+		0ADB47E211F82DE900144A81 /* Debug 10.6 */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG_PRINT;
+				HEADER_SEARCH_PATHS = (
+					../../src/monomeserial,
+					/usr/local/include,
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = "-Wno-deprecated";
+				PRODUCT_NAME = MonomeSerial;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = "Debug 10.6";
+		};
+		0ADB47E311F82DF100144A81 /* Release 10.6 */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "../../src/**";
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
+			};
+			name = "Release 10.6";
+		};
+		0ADB47E411F82DF100144A81 /* Release 10.6 */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				HEADER_SEARCH_PATHS = (
+					../../src/monomeserial,
+					/usr/local/include,
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = "-Wno-deprecated";
+				PRODUCT_NAME = MonomeSerial;
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Release 10.6";
+		};
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG_PRINT;
+				HEADER_SEARCH_PATHS = (
+					../../src/monomeserial,
+					/usr/local/include,
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = "-Wno-deprecated";
+				PRODUCT_NAME = MonomeSerial;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				HEADER_SEARCH_PATHS = (
+					../../src/monomeserial,
+					/usr/local/include,
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = "-Wno-deprecated";
+				PRODUCT_NAME = MonomeSerial;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "../../src/**";
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "../../src/**";
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "MonomeSerial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				0ADB47E211F82DE900144A81 /* Debug 10.6 */,
+				0A05171D11FBC8F900D89504 /* Debug 10.5 */,
+				0ADB47E411F82DF100144A81 /* Release 10.6 */,
+				0A05171F11FBC90000D89504 /* Release 10.5 */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MonomeSerial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				0ADB47E111F82DE900144A81 /* Debug 10.6 */,
+				0A05171C11FBC8F900D89504 /* Debug 10.5 */,
+				0ADB47E311F82DF100144A81 /* Release 10.6 */,
+				0A05171E11FBC90000D89504 /* Release 10.5 */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
