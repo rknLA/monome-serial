@@ -1,0 +1,18 @@
+﻿Build started 7/25/2010 9:00:11 PM.
+     1>Project "C:\Users\kevin\Documents\Visual Studio 2010\Projects\monome-serial\windows\MonomeSerial\MonomeSerial.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\MonomeSerial.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\kevin\Documents\Visual Studio 2010\Projects\monome-serial\windows\MonomeSerial\\source\osc\oscpack" /I"C:\Users\kevin\Documents\Visual Studio 2010\Projects\monome-serial\windows\MonomeSerial\\source\osc" /I"C:\Users\kevin\Documents\Visual Studio 2010\Projects\monome-serial\windows\MonomeSerial\\source\midi" /I"C:\Users\kevin\Documents\Visual Studio 2010\Projects\monome-serial\windows\MonomeSerial\\source\serial" /I"C:\Users\kevin\Documents\Visual Studio 2010\Projects\monome-serial\windows\MonomeSerial\\source" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DEBUG_PRINT /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt source\ApplicationController.cpp
+         ApplicationController.cpp
+     1>c:\users\kevin\documents\visual studio 2010\projects\monome-serial\windows\monomeserial\source\applicationcontroller.cpp(896): error C2664: 'OscController::send' : cannot convert parameter 1 from 'std::string' to 'OscHostRef'
+                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+     1>c:\users\kevin\documents\visual studio 2010\projects\monome-serial\windows\monomeserial\source\applicationcontroller.cpp(913): error C2664: 'OscController::send' : cannot convert parameter 1 from 'std::string' to 'OscHostRef'
+                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+     1>c:\users\kevin\documents\visual studio 2010\projects\monome-serial\windows\monomeserial\source\applicationcontroller.cpp(954): error C2664: 'OscController::send' : cannot convert parameter 1 from 'std::string' to 'OscHostRef'
+                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+     1>Done Building Project "C:\Users\kevin\Documents\Visual Studio 2010\Projects\monome-serial\windows\MonomeSerial\MonomeSerial.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.39
