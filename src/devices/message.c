@@ -16,7 +16,20 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
+
+/**
+ * Contains code by Daniel Battaglia, Steve Duda, and Kevin Nelson.
+ */
+
+#ifdef WIN32
+#include "stdafx.h"
+#endif
+
 #include "message.h"
+
+#ifdef __cplusplus
+extern "C" {
+#endif
 
 //why on earth would we send poor monome a press
 //void messagePackButtonPress(t_message *message, uint8 state, uint8 x, uint8 y)
@@ -84,3 +97,7 @@ void messagePackEncVal(t_message *message, uint8 enc, uint8 val)
     message->data0 = (kMessageTypeEncVal << 4) | (enc & 0xF);
     message->data1 = (uint8)val;
 }
+
+#ifdef __cplusplus
+}
+#endif

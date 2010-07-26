@@ -17,7 +17,15 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
+#ifdef WIN32
+#include "stdafx.h"
+#endif
+
 #include "message256.h"
+
+#ifdef __cplusplus
+extern "C" {
+#endif
 	
 	/*
 			
@@ -132,4 +140,8 @@ void messagePack_256_auxiliaryInput(t_message *message, uint8 whichport, uint8 d
     message->data0 = (kMessageType_256_auxiliaryInput << 4) | (whichport & 0xF);
     message->data1 = (uint8)data;
 }
+
+#ifdef __cplusplus
+}
+#endif
 
